@@ -1,0 +1,99 @@
+/* *{
+    background-color: rgb(255, 255, 255)
+} */
+.loginContainer{
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter';
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.87);
+    height: 436px;
+    width: 378px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 16px 0px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-top: 32px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 32px;
+}
+
+.signupContainer{
+    height: 400px;
+    width: 378px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.signup-link{
+    color: rgb(68, 81, 255);
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: -0.1679999977350235px;
+    line-height: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sectionTitle-signin{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.welcome-signin{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.loginContainer div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.loginContainer div label{
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.loginContainer div input{
+    height: 32px;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 18px;
+    padding-left: 15px;
+}
+
+.loginContainer div input:focus{
+    outline: none;
+}
+
+.loginContainer button{
+    background-color: rgb(68, 81, 255);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding-right: 24px;
+    white-space: nowrap;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+
+/* try to make this slower */
+.loginContainer button:hover{
+    background-color: rgb(24, 39, 215);
+}

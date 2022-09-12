@@ -1,0 +1,92 @@
+.music-box{
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter';
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.87);
+    height: auto;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 16px 0px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-top: 32px;
+    padding-left: 56px;
+    padding-right: 56px;
+    overflow-y: hidden;
+    padding-bottom: 50px;
+}
+
+.music-box-info-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.music-image{
+    height: 250px;
+    width: 250px;
+    display: block;
+    border-top-left-radius: 16px; 
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    margin: 20px auto;
+}
+
+.audio{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.music-box-desc{
+    margin: 15px auto;
+}
+
+.signupContainer{
+    height: 400px;
+    width: 388px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.music-box-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.qty-music-box{
+    height: 30px;
+    padding-left: 10px;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.button-order{
+    height: 35px;
+    background-color: rgb(68, 81, 255);
+    color: white;
+    border: solid;
+    width: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button-order:hover{
+    background-color: rgb(24, 39, 215);
+}
+
+.order-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.header{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 20px;
+}

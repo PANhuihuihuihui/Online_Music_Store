@@ -1,0 +1,149 @@
+.checkout-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.addressDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter';
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.87);
+    height: 400px;
+    width: 388px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 16px 0px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-top: 20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 20px;
+}
+
+.addressItemContainer{
+    display: flex;
+    font-family: 'Inter';
+    flex-direction: column;
+}
+
+.addressDetailsContainer div{
+    display: flex;
+    margin-right: 13px;
+    margin-bottom: 10px;
+}
+
+.addressDetailsContainer div div label{
+    font-weight: bold;
+}
+
+.addressDetailsContainer div div input{
+    font-family: 'Inter';
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 150px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.addressDetailsContainer button{
+    height: 40px;
+    width: 140px;
+    background-color: rgb(68, 81, 255);
+    font-family: 'Inter';
+    border: none;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.addressDetailsContainer button:hover{
+    background-color: rgb(24, 39, 215);
+}
+
+.order-title{
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.order-col-name{
+    width: 45%;
+    padding-top: 5px;
+    margin-bottom: 1px;
+    border-right: solid 2px #e9ecef;
+}
+
+.order-col-qty{
+    width: 25%;
+    padding-top: 5px;
+    border-right: solid 2px #e9ecef;
+}
+
+.order-col-price{
+    width: 25%;
+    padding-top: 5px;
+}
+
+.orderDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter';
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.87);
+    height: 800px;
+    width: 388px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 16px 0px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+}
+
+.order-item-container{
+    display: flex;
+    /* height: 400px; */
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 14px;
+    border-bottom: solid 2px #e9ecef;
+}
+
+.orderDetailsContainer button{
+    height: 40px;
+    width: 140px;
+    background-color: rgb(68, 81, 255);
+    font-family: 'Inter';
+    border: none;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.orderDetailsContainer button:hover{
+    background-color: rgb(24, 39, 215);
+}
+
+.numbers{
+    margin-top: 15px
+}

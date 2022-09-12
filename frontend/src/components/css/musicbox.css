@@ -1,0 +1,44 @@
+.musicbox-container{
+    font-family: 'Inter';
+    cursor: pointer;
+    padding: 30px 20px;
+    background-color: white;
+    display: flex;
+    height: 400px;
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 16px 0px;
+}
+
+.new-arrival{
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.musicbox-container p{
+    text-align: center;
+}
+
+.music-image{
+    height: 250px;
+    width: 250px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.musicbox-name{
+    font-size: 19px;
+    overflow: hidden;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
