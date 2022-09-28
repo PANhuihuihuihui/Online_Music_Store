@@ -4,13 +4,21 @@ Course project support online browsing and listening music, shop chart, checkout
 ## Features
 jQuery, Node.js, Express.js, MongoDB, and ReactJS
     [DONE]    Login page
+    
     [DONE]    Create account page
+    
     [DONE]    Verifying user’s login into the system (verifyLogin.php)
+    
     [DONE]    Users’ account creation (create.php) 
+    
     [DONE]    Main page, category page, music information page 
+    
     [DONE]    Cart page 
+    
     [DONE]    Checkout page 
-    [DONE]    Logout in “logout.php” (0.5 points)
+    
+    [DONE]    Logout in “logout.php” 
+    
 ## Build
 (1) start the MongoDB database:
 ```sh
